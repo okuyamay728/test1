@@ -1,0 +1,17 @@
+{
+    "projectName": "myblogstarter",
+    "version": "3.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "vue",
+        "config": {
+            "SourceDir": "okuyama/my-blog-starter",
+            "DistributionDir": "okuyama/my-blog-starter",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "npm run-script serve"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}
